@@ -7,6 +7,7 @@ Persona p3 = new Persona("Alex Morgan", new DateTime(1990, 1, 1), 'F');
 
 List<Persona> listaP = new List<Persona>();
 
+p.setNombre("Neymar Jr");
 
 listaP.Add(p);
 listaP.Add(p2);
@@ -21,3 +22,35 @@ foreach (Persona x in listaP) {
 }
 
 
+Producto pr1 = new Producto() {
+
+    nombre = "Laptop",
+    codigoProducto = "LP01",
+    precio =  800,
+    proveedor = "Samsung"
+
+};
+
+Producto pr2 = new Producto() {
+
+    nombre = "Iphone 12",
+    codigoProducto  = "IPH12",
+    precio = 1200,
+    proveedor = "Apple"
+
+};
+
+pr1.nombre = "Laptop Touch"; 
+
+
+List<Producto> listaProductos = new List<Producto>();
+
+listaProductos.Add(pr1);
+listaProductos.Add(pr2);
+
+
+foreach (Producto x in listaProductos) {
+
+    Console.WriteLine(x.toString());
+
+}
