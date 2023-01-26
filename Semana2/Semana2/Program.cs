@@ -51,6 +51,26 @@ listaProductos.Add(pr2);
 
 foreach (Producto x in listaProductos) {
 
-    Console.WriteLine(x.toString());
+    Console.WriteLine(x.toString() );
+    
 
 }
+
+/*
+ 
+Desarrolla una clase carro
+
+placa
+color
+marca
+anioProduccion
+kms (Inicializar en 0)
+
+set y get de cada Variable
+
+metodo: hacerViaje (Kms que viajo) va actualizar el conteo de kms.
+metodo: toString () retonrar informacion del carro mas los kms recorridos 
+
+
+ 
+ */
